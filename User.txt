@@ -1,0 +1,6 @@
+Mysql
+  phpmyadmin:root
+  pi:root
+  root:root
+Raspberry
+  pi:root
