@@ -1,8 +1,0 @@
-<html>
-<body>
-<h1>Hello</h1>
-<?php
-if($_GET['led'] ==1) echif($_GET['led'] ==1) echo shell_exec("python /home/pi/Code/python/t.py");o shell_exec("python /home/pi/Code/python/t.py");
-?>
-</body>
-</html>
