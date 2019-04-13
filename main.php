@@ -7,8 +7,15 @@
 		<meta charset="utf-8">
 		<link href="st1.css" rel="stylesheet" >
 		<script>
+			var i=1;
 			function Click(){
-				document.getElementById('btn1').value = 'clicked';
+				if(i ==1 ) {
+					document.getElementById('btn1').value = 'clicked';
+					i=0;
+				}else {
+					i=1;
+					document.getElementById('btn1').value = 'click';
+				}
 			}
 		</script>
 	</head>
