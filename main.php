@@ -24,38 +24,52 @@
       #menu{
         width:10vw;
         height:100vh;
-        border: 1px solid blue;
+        //border: 1px solid blue;
       }
       #head{
         width:98vw;
         height:16vh;
-        border:1px solid blue;
+        //border:1px solid blue;
       }
       #main{
         width:67vw;
         height:74vh;
-        border:1px solid blue;
+        //border:1px solid blue;
       }
       #right{
         width:19vw;
         height:74vh;
-        border:1px solid blue;
+        //border:1px solid blue;
       }
       #foot{
         width:87vw;
         height:24vh;
-        border:1px solid blue;
+        //border:1px solid blue;
       }
 		</style>
 		<link href="st1.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="grid-container">
-		  <div class="item1" id="head"><br>Main Control</div>
-		  <div class="item2" id="menu">Menu</div>
-		  <div class="item3" id="main">Main</div>
-		  <div class="item4" id="right">Right</div>
-		  <div class="item5" id="foot">Footer</div>
+		  <div class="item1" id="head">
+			</div>
+		  <div class="item2" id="menu">
+			</div>
+		  <div class="item3" id="main">
+			</div>
+		  <div class="item4" id="right">
+				<form class="" action="login/logout.php" method="post">
+					<input type="submit">Log Out</input>
+					<br>
+				</form>
+				<?php
+				if($row_user['priority'] >1){
+					return '<input type="button" value="create more">';
+				}
+				?>
+			</div>
+		  <div class="item5" id="foot">
+			</div>
 		</div>
 	</body>
 </html>
