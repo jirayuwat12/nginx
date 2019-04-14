@@ -65,7 +65,8 @@
 				<?php
 				$prio = (int)$row_user['priority'];
 				if($prio > 1){
-					echo '<input type="submit" value="create more" />';
+					echo '<form action="edit_IOT.php"><input type="submit" value="edit IOT"/></form>';
+					echo '<form action="edit_user.php"><input type="submit" value="edit user"/></form>';
 				}
 				?>
 			</div>
