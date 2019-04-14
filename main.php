@@ -63,8 +63,8 @@
 					<br>
 				</form>
 				<?php
-				echo $row_user['priority'];
-				$prio = $row_user['priority'];
+				$prio = (int)$row_user['priority'];
+				echo $prio;
 				function create_button(){
 					if($prio > 1){
 						return '<input type="submit" value="create more" />';
