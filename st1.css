@@ -4,4 +4,8 @@ body {
 }
 #left{
   text-align: left;
+  font-size: 10px;
+}
+#_20px{
+  font-size: 20px;
 }
