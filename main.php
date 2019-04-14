@@ -68,8 +68,9 @@
 				function create_button(){
 					if($prio > 1){
 						return '<input type="submit" value="create more" />';
+					}else{
+						return '<input type="submit" value="can\'t create more" />';
 					}
-					return '<input type="submit" value="can\'t create more" />';
 				};
 				echo create_button();
 				?>
