@@ -3,31 +3,42 @@
 ?>
 <html>
 	<head>
-		<title>MAIN</title>
-		<meta charset="utf-8">
-		<link href="st1.css" rel="stylesheet" >
-		<script>
-			var i=1;
-			function Click(){
-				if(i ==1 ) {
-					document.getElementById('btn1').value = 'clicked';
-					i=0;
-				}else {
-					i=1;
-					document.getElementById('btn1').value = 'click';
-				}
+		<style>
+			.item1 { grid-area: header; }
+			.item2 { grid-area: menu; }
+			.item3 { grid-area: main; }
+			.item4 { grid-area: right; }
+			.item5 { grid-area: footer; }
+			.grid-container {
+	  		display: grid;
+	  		grid-template-areas:
+	    	'header header header header header header'
+		    'menu main main main right right'
+		    'menu footer footer footer footer footer';
+			  grid-gap: 10px;
+			  background-color: #2196F3;
+			  padding: 10px;
 			}
-		</script>
+			.grid-container > div {
+			  background-color: rgba(255, 255, 255, 0.8);
+			  text-align: center;
+			  padding: 20px 0;
+			  font-size: 30px;
+			}
+		</style>
 	</head>
 	<body>
-		<div>
-			<h1> <?php echo "Hello, Mr. ".$row_user['username']; ?> </h1>
-			<br></br>
-			<input type="button" id="btn1" value="click" onclick="Click();" />
-			<br></br>
-			<a href="login/logout.php">Log Out</a>
+		<h1>Grid Layout</h1>
+		<p>This grid layout contains six columns and three rows:</p>
+		<div class="grid-container">
+		  <div class="item1">Header</div>
+		  <div class="item2">Menu</div>
+		  <div class="item3">Main</div>
+		  <div class="item4">Right</div>
+		  <div class="item5">Footer</div>
 		</div>
 	</body>
 </html>
+
 
 <?php mysqli_close($dbcon); ?>
