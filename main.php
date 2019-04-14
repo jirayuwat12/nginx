@@ -68,7 +68,11 @@
 					echo '<form action="edit_IOT.php"><input type="submit" value="edit IOT"/></form>';
 					echo '<form action="edit_user.php"><input type="submit" value="edit user"/></form>';
 				}
+				function check_status(){
+					shell_exec("python3 check_status.py");
+				}
 				?>
+					<input type="button" value="check status" onclick="check_status();">
 			</div>
 		  <div class="item5" id="foot">
 			</div>

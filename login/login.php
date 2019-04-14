@@ -13,7 +13,7 @@
 <label for="pass">Password</label>
 <input type="password" name="pass" required>
 <br></br>
-<input type="submit" value="Regist">
+<input type="submit" value="Login">
 <br></br>
 <br></br>
 <a href="frm_register.php">Sign Up</a>
