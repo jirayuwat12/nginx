@@ -65,8 +65,8 @@
 				<?php
 				echo $row_user['priority'];
 				function create_button(){
-					if($row_user['priority'] >1){
-						return '<input type="button" value="create more">';
+					if($row_user['priority'] > '1'){
+						return '<input type="submit" value="create more" />';
 					}
 				};
 				echo create_button();
