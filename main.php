@@ -63,9 +63,12 @@
 					<br>
 				</form>
 				<?php
-				if($row_user['priority'] >1){
-					return '<input type="button" value="create more">';
+				function create_button(){
+					if($row_user['priority'] >1){
+						return '<input type="button" value="create more">';
+					}
 				}
+				echo create_button();
 				?>
 			</div>
 		  <div class="item5" id="foot">
