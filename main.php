@@ -65,7 +65,7 @@
 				<?php
 				$prio = (int)$row_user['priority'];
 				echo $prio;
-				$ck =1;
+				$ck =10;
 				if($prio > $ck){
 					echo '<input type="submit" value="create more" />';
 				}else{
