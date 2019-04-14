@@ -65,6 +65,7 @@
 				<?php
 				$prio = (int)$row_user['priority'];
 				echo $prio;
+				echo gettype($prio).'\n'.gettype(1).'\n';
 				function create_button(){
 					if($prio > 1){
 						return '<input type="submit" value="create more" />';
