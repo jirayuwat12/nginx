@@ -24,27 +24,27 @@
       #menu{
         width:10vw;
         height:100vh;
-        //border: 1px solid blue;
+        border: 1px solid blue;
       }
       #head{
         width:98vw;
         height:16vh;
-        //border:1px solid blue;
+        border:1px solid blue;
       }
       #main{
         width:67vw;
         height:74vh;
-        //border:1px solid blue;
+        border:1px solid blue;
       }
       #right{
         width:19vw;
         height:74vh;
-        //border:1px solid blue;
+        border:1px solid blue;
       }
       #foot{
         width:87vw;
         height:24vh;
-        //border:1px solid blue;
+        border:1px solid blue;
       }
 		</style>
 		<link href="st1.css" rel="stylesheet">
