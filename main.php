@@ -68,8 +68,9 @@
 					if($row_user['priority'] > '1'){
 						return '<input type="submit" value="create more" />';
 					}
+					return '<input type="submit" value="can\'t create more" />';
 				};
-				echo '<input type="submit" value="name"/>';
+				echo create_button();
 				?>
 			</div>
 		  <div class="item5" id="foot">
