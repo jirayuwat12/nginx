@@ -15,7 +15,7 @@
 	    	'header header header header header header'
 		    'menu main main main right right'
 		    'menu footer footer footer footer footer';
-			  grid-gap: 10px;
+			  grid-gap: 1vh;
 			}
 			.grid-container > div {
 			  text-align: center;
