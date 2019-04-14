@@ -52,8 +52,8 @@
 	<body>
 		<div class="grid-container">
 		  <div class="item1" id="head">
-				<h1>Main Console</h1>
-				<p text-align="left">by J->B.</p>
+				<h1 font-size="20px">Main Console</h1>
+				<p id="left" font-size="10px">by J->B.</p>
 			</div>
 		  <div class="item2" id="menu">
 			</div>
