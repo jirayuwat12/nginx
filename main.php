@@ -59,7 +59,7 @@
 			</div>
 		  <div class="item4" id="right">
 				<form class="" action="login/logout.php" method="post">
-					<input type="submit">Log Out</input>
+					<input type="submit" value="Log Out"/>
 					<br>
 				</form>
 				<?php
