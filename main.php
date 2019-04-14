@@ -64,12 +64,8 @@
 				</form>
 				<?php
 				$prio = (int)$row_user['priority'];
-				echo $prio;
-				$ck =1;
-				if($prio > $ck){
+				if($prio > 1){
 					echo '<input type="submit" value="create more" />';
-				}else{
-					echo '<input type="submit" value="can\'t create more" />';
 				}
 				?>
 			</div>
