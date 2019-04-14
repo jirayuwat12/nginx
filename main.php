@@ -64,8 +64,9 @@
 				</form>
 				<?php
 				echo $row_user['priority'];
+				$prio = $row_user['priority'];
 				function create_button(){
-					if($row_user['priority'] > '1'){
+					if($prio > '1'){
 						return '<input type="submit" value="create more" />';
 					}
 					return '<input type="submit" value="can\'t create more" />';
