@@ -69,7 +69,7 @@
 						return '<input type="submit" value="create more" />';
 					}
 				};
-				echo create_button();
+				echo '<input type="submit" value="name"/>';
 				?>
 			</div>
 		  <div class="item5" id="foot">
