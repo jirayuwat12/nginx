@@ -14,6 +14,9 @@
 	  		grid-template-areas:
 	    	'header header header header header header'
 		    'menu main main main right right'
+				'menu main main main right right'
+				'menu main main main right right'
+				'menu main main main right right'
 		    'menu footer footer footer footer footer';
 			  grid-gap: 10px;
 			}
