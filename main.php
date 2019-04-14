@@ -47,6 +47,7 @@
         border:1px solid blue;
       }
 		</style>
+		<link href="st1.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="grid-container">
