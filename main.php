@@ -16,11 +16,11 @@
 		    'menu main main main right right'
 		    'menu footer footer footer footer footer';
 			  grid-gap: 10px;
-			  padding: 10px;
+			  //padding: 10px;
 			}
 			.grid-container > div {
 			  text-align: center;
-			  padding: 20px 0;
+			 // padding: 20px 0;
 			  font-size: 30px;
 			}
 		</style>
