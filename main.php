@@ -66,14 +66,11 @@
 				$prio = (int)$row_user['priority'];
 				echo $prio;
 				$ck =1;
-				function create_button(){
-					if($prio > $ck){
-						return '<input type="submit" value="create more" />';
-					}else{
-						return '<input type="submit" value="can\'t create more" />';
-					}
-				};
-				echo create_button();
+				if($prio > $ck){
+					echo '<input type="submit" value="create more" />';
+				}else{
+					echo '<input type="submit" value="can\'t create more" />';
+				}
 				?>
 			</div>
 		  <div class="item5" id="foot">
