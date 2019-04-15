@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="login/style.css">
 	</head>
 	<body>
-		<form class="box" action="logout.php" method="post">
+		<form class="box" action="login/logout.php" method="post">
 			<input type="submit" name="" value="Logout">
 		</form>
 	</body>
