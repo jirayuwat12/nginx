@@ -11,6 +11,7 @@
   </script>
 </head>
 <body>
+  <div class="box">
 <?php
 require'connectdb.php';
 $user = mysqli_real_escape_string($dbcon,$_POST['username']);
@@ -31,9 +32,11 @@ $row_user=mysqli_fetch_array($r_user,MYSQLI_ASSOC);
 $_SESSION['login_id']=$row_user['id'];
 header("Location: ../main.php");
 }else{
-echo "<div class="box"><h1 style="font-size:15px;">Invalid username or password</h1><input type="button" value="Login"onClick="gotologin();"><input type="button" value="Regist"onClick="gotoregist();"></box>";
+echo '<h1 style="font-size:15px;">Login Error</h1>';
 }
 ?>
-<h1>Hello</h1>
+  <input type="button" value="Login"onClick="gotologin();">
+  <input type="button" value="Regist"onClick="gotoregist();">
+</box>
 </body>
 </html>
