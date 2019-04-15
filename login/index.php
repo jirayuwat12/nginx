@@ -13,6 +13,12 @@
     }
   </script>
   <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #34495e;
+    }
     box {
       width: 300px;
       padding: 40px;
