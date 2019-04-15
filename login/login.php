@@ -11,9 +11,7 @@
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="pass" placeholder="Password" required>
         <input type="submit" value="Login">
-        <form class="" action="frm_register.php" method="post">
-          <input type="submit" name="" value="Register">
-        </form>
+        <input type="button" onclick="location.href='frm_register.php';" value="Regist" />
       </form>
     </div>
   </body>

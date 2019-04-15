@@ -38,7 +38,7 @@ body {
   width: 280px;
   border-color: #2ecc71;
 }
-.box input[type="submit"] {
+.box input[type="submit"], .box input[typee="button"] {
   border: 0;
   background: none;
   display: block;
@@ -52,9 +52,9 @@ body {
   transition: 0.25s;
   cursor: pointer;
 }
-.box input[type="submit"]:hover {
+.box input[type="submit"]:hover , .box input[typee="button"]:hover{
   background: #2ecc71;
 }
-.box input[type="submit"]:active {
+.box input[type="submit"]:active , .box input[typee="button"]:active{
   background: #2ab766;
 }
