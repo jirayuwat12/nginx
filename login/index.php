@@ -24,7 +24,7 @@
       text-align: center;
       border-radius: 24px;
     }
-    box input[typee="button"]{
+    box input[type="button"]{
       border: 0;
       background: none;
       display: block;
@@ -38,10 +38,10 @@
       transition: 0.25s;
       cursor: pointer;
     }
-    box input[typee="button"]:hover{
+    box input[type="button"]:hover{
       background: #2ecc71;
     }
-    box input[typee="button"]:active{
+    box input[type="button"]:active{
       background: #2ab766;
     }
   </style>
