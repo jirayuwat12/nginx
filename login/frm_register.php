@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Register</title>
-    <link href="style_login.css" rel="stylesheet">
+    <link href="style_regist.css" rel="stylesheet">
   </head>
   <body>
     <div>
@@ -12,9 +12,6 @@
         <input type="password" name="pass" placeholder="Password" required>
         <input type="email" name="email" placeholder="example@doamin.com">
         <input type="submit" value="Regis">
-        <form class="" action="index.php" method="post">
-          <input type="submit" name="" value="Home">
-        </form>
       </form>
     </div>
   </body>
