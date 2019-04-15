@@ -1,10 +1,4 @@
-a.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-  color: initial;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,7 +39,7 @@ body {
   width: 280px;
   border-color: #2ecc71;
 }
-.box input[type="submit"], .box input[typee="button"],a.button {
+.box input[type="submit"], .box input[typee="button"]{
   border: 0;
   background: none;
   display: block;
@@ -59,9 +53,9 @@ body {
   transition: 0.25s;
   cursor: pointer;
 }
-.box input[type="submit"]:hover , .box input[typee="button"]:hover,a.button:hover{
+.box input[type="submit"]:hover , .box input[typee="button"]:hover{
   background: #2ecc71;
 }
-.box input[type="submit"]:active , .box input[typee="button"]:active,a.button:active{
+.box input[type="submit"]:active , .box input[typee="button"]:active{
   background: #2ab766;
 }
