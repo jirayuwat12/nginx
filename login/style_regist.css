@@ -20,7 +20,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
 }
-.box input[type="text"], .box input[type="password"]{
+.box input[type="text"], .box input[type="password"], .box input[type="email"]{
   border: 0;
   background: none;
   display: block;
@@ -34,7 +34,7 @@ body {
   border-radius: 24px;
   transition: 0.25s;
 }
-.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="password"]:focus {
+.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="email"]:focus {
   width: 280px;
   border-color: #2ecc71;
 }
@@ -52,9 +52,9 @@ body {
   transition: 0.25s;
   cursor: pointer;
 }
-.box input[type="submit"]:hover , .box input[typee="button"]:hover, .box input[type="password"]:hover{
+.box input[type="submit"]:hover , .box input[typee="button"]:hover{
   background: #2ecc71;
 }
-.box input[type="submit"]:active , .box input[typee="button"]:active, .box input[type="password"]:active{
+.box input[type="submit"]:active , .box input[typee="button"]:active{
   background: #2ab766;
 }
