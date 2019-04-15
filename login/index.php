@@ -12,8 +12,8 @@
   </head>
   <body>
     <div class="box">
-      <input class="border" type="button" name="" value="Login" onclick="gotologin();">
-      <input class="border" type="button" name="" value="Regist" onclick="gotoregist();">
+      <input type="button" name="" value="Login" onclick="gotologin();">
+      <input type="button" name="" value="Regist" onclick="gotoregist();">
     </div>
   </body>
 </html>
