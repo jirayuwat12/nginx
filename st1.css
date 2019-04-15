@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(90deg, #957DAD, #D291BC); /* Standard syntax (must be last) */
 }
 #left{
-  text-align: left;
+  text-align: right;
   font-size: 10px;
 }
 #_20px{

@@ -64,6 +64,7 @@
 					<input type="submit" value="Log Out"/>
 					<br>
 				</form>
+				
 				<?php
 				$prio = (int)$row_user['priority'];
 				if($prio > 1){
