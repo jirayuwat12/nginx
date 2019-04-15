@@ -6,7 +6,7 @@
         window.location.href = "login.php";
       }
       function gotoregist() {
-        window.location.href = "frm_regist.php";
+        window.location.href = "frm_register.php";
       }
     </script>
   </head>

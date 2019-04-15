@@ -7,8 +7,8 @@
   </head>
   <body>
     <form class="box" action="login_check.php" method="POST">
-      <input type="text" name="username" placeholder="Username">
-      <input type="password" name="pass" placeholder="Password">
+      <input type="text" name="username" id="username"placeholder="Username">
+      <input type="password" name="pass" id="pass" placeholder="Password">
       <input type="submit" value="LOGIN">
     </form>
   </body>
