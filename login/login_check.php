@@ -1,7 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript">
+  <script>
     function gotologin(){
       window.location.href = "login.php";
     }
