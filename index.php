@@ -1,5 +1,3 @@
-<html>
-  <body>
-    <?php header("Location:main.php") ?>
-  </body>
-</html>
+<?php
+  header('main.php');
+ ?>

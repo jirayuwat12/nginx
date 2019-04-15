@@ -1,4 +1,15 @@
 <html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    function gotologin(){
+      window.location.href = "login.php";
+    }
+    function gotoregist() {
+      window.location.href = "frm_regist.php";
+    }
+  </script>
+</head>
 <body>
 <?php
 require'connectdb.php';
@@ -20,13 +31,8 @@ $row_user=mysqli_fetch_array($r_user,MYSQLI_ASSOC);
 $_SESSION['login_id']=$row_user['id'];
 header("Location: ../main.php");
 }else{
-echo "Invalid Usernam or Password";
+echo "<div class="box"><h1 style="font-size:15px;">Invalid username or password</h1><input type="button" value="Login"onClick="gotologin();"><input type="button" value="Regist"onClick="gotoregist();"></box>";
 }
 ?>
-<br></br>
-<a href="login.php" >Login Again</a>
-<br></br>
-<a href="frm_register.php">Sign Up</a>
-
 </body>
 </html>
