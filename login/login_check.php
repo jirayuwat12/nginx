@@ -34,5 +34,6 @@ header("Location: ../main.php");
 echo "<div class="box"><h1 style="font-size:15px;">Invalid username or password</h1><input type="button" value="Login"onClick="gotologin();"><input type="button" value="Regist"onClick="gotoregist();"></box>";
 }
 ?>
+<h1>Hello</h1>
 </body>
 </html>
