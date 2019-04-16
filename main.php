@@ -9,9 +9,11 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<div class="box">
 			<label class="switch">
   			<input type="checkbox">
   			<span class="slider round"></span>
 			</label>
+		</div>
 	</body>
 </html>
